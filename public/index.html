@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Adivina el Número</title>
+</head>
+<body>
+    <div class="chat-container">
+
+        <!-- Ventana del juego -->
+        <div class="game-info">
+            <h1>Adivina el Número</h1>
+            <p id="instructions">El servidor ha elegido un número entre 1 y 100. ¡Intenta adivinarlo!</p>
+            <p id="hint">Las pistas aparecerán aquí.</p>
+            <p id="winner"></p>
+        </div>
+
+        <!-- Ventana del chat -->
+        <div class="chat-windows">
+            <div id="output"></div>
+            <div id="actions"></div>
+        </div>
+
+        <!-- Inputs del chat -->
+        <input type="text" id="usuario" placeholder="Usuario">
+        <input type="text" id="message" placeholder="Escribe tu número">
+        <button id="send">Enviar</button>
+
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="juego.js"></script>
+</body>
+</html>

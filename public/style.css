@@ -1,0 +1,94 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    background-image: url('img/numero2.avif');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+}
+
+.chat-container {
+    max-width: 600px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, .5);
+}
+
+.chat-window {
+    padding: 14px 0;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+}
+
+#output {
+    color: #fff8f8;
+    padding: 14px 0;
+    margin: 0 20px;
+}
+
+#actions {
+    padding: 14px 0;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #f1eeee; 
+}
+
+input {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 0;
+    background: #eee;
+    display: block;
+    width: 100%;
+}
+
+button {
+    background: #1dbb05;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+}
+
+.game-info {
+    background-color: #f9f9f9; /* Fondo claro */
+    border: 2px solid #cccccc; /* Borde sutil */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin: 20px 0; /* Espaciado externo */
+    text-align: center; /* Centrar texto */
+    font-family: 'Nunito', sans-serif; /* Fuente elegante */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.game-info h1 {
+    color: #333333; /* Título oscuro */
+    font-size: 24px; /* Tamaño del título */
+    margin-bottom: 10px; /* Espaciado debajo */
+}
+
+.game-info p {
+    font-size: 16px; /* Tamaño del texto */
+    color: #555555; /* Texto en tono gris */
+    margin: 10px 0; /* Espaciado entre párrafos */
+}
+
+#hint {
+    color: #007bff; /* Azul para pistas */
+    font-weight: bold; /* Resaltar pistas */
+    font-size: 18px; /* Tamaño mayor para pistas */
+}
+
+#winner {
+    color: #28a745; /* Verde para el ganador */
+    font-weight: bold; /* Resaltar ganador */
+    font-size: 20px; /* Tamaño mayor */
+    margin-top: 15px; /* Espaciado adicional */
+}
+
+#instructions {
+    font-style: italic; /* Instrucciones en cursiva */
+    color: #666666; /* Color más suave */
+}
